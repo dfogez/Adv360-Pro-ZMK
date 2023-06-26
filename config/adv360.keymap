@@ -49,7 +49,7 @@
 
         layer_Layer_1 {
             bindings = <
- &kp F12                  &kp F1  &kp F2  &kp F3                   &kp F4  &kp F5            &tog 1                                                   &none    &kp F6    &kp F7  &kp F8     &kp F9  &kp F10  &kp F11
+ &kp F12                  &kp F1  &kp F2  &kp F3                   &kp F4  &kp F5            &tog 1                                                  &trans    &kp F6    &kp F7  &kp F8     &kp F9  &kp F10  &kp F11
   &trans                  &trans   &none   &none                   &trans  &trans            &trans                                                  &trans    &trans    &trans   &none      &none   &trans   &trans
   &trans  &kp RG(LC(LEFT_ARROW))   &none   &none  &kp RG(LC(RIGHT_ARROW))  &trans            &trans  &trans  &trans   &none   &none  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp END    &none
   &trans                  &trans  &trans  &trans                   &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none    &trans  &kp HOME  &trans     &trans   &trans   &trans
