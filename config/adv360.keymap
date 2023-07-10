@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-        &kp EQUAL            &kp N1     &kp N2         &kp N3         &kp N4  &kp N5            &macro_e12                                                                                   &mo 2  &kp N6    &kp N7     &kp N8    &kp N9                           &kp N0  &kp MINUS
-          &kp TAB             &kp Q      &kp W          &kp E          &kp R   &kp T                 &none                                                                                 &kp F11   &kp Y     &kp U      &kp I     &kp O                            &kp P   &kp BSLH
-          &kp ESC             &kp A      &kp S          &kp D          &kp F   &kp G                 &none       &kp DEL  &kp C_MUTE   &none   &none  &kp C_VOL_UP                &mo 1      &none   &kp H     &kp J      &kp K     &kp L                         &kp SEMI    &kp SQT
-        &kp EQUAL  &mt LEFT_SHIFT Z      &kp X          &kp C          &kp V   &kp B                 &none         &none       &none   &none   &none  &kp C_VOL_DN                &none      &none   &kp N     &kp M  &kp COMMA   &kp DOT            &mt RIGHT_SHIFT SLASH  &kp MINUS
- &kp LEFT_CONTROL   &mt LCTRL GRAVE  &kp K_APP  &kp LC(PG_UP)  &kp LC(PG_DN)                      &kp BSPC  &kp LEFT_ALT       &mo 1                  &kp LEFT_GUI  &mt RIGHT_ALT ENTER  &kp SPACE          &kp DOWN     &kp UP  &kp LBKT  &mt RIGHT_CONTROL RIGHT_BRACKET  &kp RCTRL
+        &kp EQUAL            &kp N1     &kp N2         &kp N3         &kp N4  &kp N5                     &macro_e12                                                                                   &mo 2  &kp N6    &kp N7     &kp N8    &kp N9                           &kp N0  &kp MINUS
+          &kp TAB             &kp Q      &kp W          &kp E          &kp R   &kp T                    &mt RCTRL C                                                                                 &kp F11   &kp Y     &kp U      &kp I     &kp O                            &kp P   &kp BSLH
+          &kp ESC             &kp A      &kp S          &kp D          &kp F   &kp G            &mt RIGHT_CONTROL V       &kp DEL  &kp C_MUTE   &none   &none  &kp C_VOL_UP                &mo 1      &none   &kp H     &kp J      &kp K     &kp L                         &kp SEMI    &kp SQT
+        &kp EQUAL  &mt LEFT_SHIFT Z      &kp X          &kp C          &kp V   &kp B                          &none         &none       &none   &none   &none  &kp C_VOL_DN                &none      &none   &kp N     &kp M  &kp COMMA   &kp DOT            &mt RIGHT_SHIFT SLASH  &kp MINUS
+ &kp LEFT_CONTROL   &mt LCTRL GRAVE  &kp K_APP  &kp LC(PG_UP)  &kp LC(PG_DN)                               &kp BSPC  &kp LEFT_ALT       &mo 1                  &kp LEFT_GUI  &mt RIGHT_ALT ENTER  &kp SPACE          &kp DOWN     &kp UP  &kp LBKT  &mt RIGHT_CONTROL RIGHT_BRACKET  &kp RCTRL
             >;
         };
 
